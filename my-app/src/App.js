@@ -4,6 +4,7 @@ import './App.css';
 import Navigation from "./components/Navigation";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <MainContent />
       <Footer />
+      <Login />
     </div>
   );
 }
