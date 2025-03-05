@@ -8,6 +8,8 @@ import FirstMain from "./components/FirstMain";
 import FirstSide from "./components/FirstSide";
 import SecondSide from "./components/SecondSide";
 import Forthside from "./components/ForthSide";
+import ThirdSide from "./components/ThirdSide";
+import ThirdMain from "./components/ThirdMain";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       <FirstMain />
       <FirstSide />
       <SecondSide />
+      <ThirdSide />
       <Forthside />
+      <ThirdMain />
       <Footer />
     </div>
   );
