@@ -2,7 +2,7 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="flex items-center justify-center bg-gray-100">
+    <div className="flex items-center justify-center bg-white">
       <div className="bg-white p-6 rounded-lg shadow-md w-96 text-center">
         {/* 설명 텍스트 */}
         <p className="text-gray-600 text-sm mb-4">
