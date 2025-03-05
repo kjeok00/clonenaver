@@ -128,7 +128,14 @@ const ThirdMain = () => {
                 </div>
             </div>
 
-            
+            {/*footer*/}
+            <div className="rounded-lg border-2 border-purple-100 bg-purple-100 flex jutify-start px-2 py-2 space-x-2">
+                <span className="text-black font-bold">오늘의 혜택</span>
+                <span className=" text-purple-400 font-semibold">CJ온스타일</span>
+                <span className=" text-black font-semibold">특가로 만나는 BEST 상품! 절대 놓칠 수 없는</span>
+                <span className="text-purple-300 font-semibold">특별 할인 찬스!</span>
+            </div>
+
         </div>
     );
 };
