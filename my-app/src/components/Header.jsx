@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="bg-white shadow-md">
+    <div className="bg-white">
 
       <div className="flex items-center justify-between px-4 py-2 text-gray-500 text-sm">
         {/* 좌측 아이콘 */}
@@ -18,7 +18,7 @@ const Header = () => {
         </div>
       </div>
 
-      <header className="flex items-center justify-center px-4 py-2 bg-white shadow-md">
+      <header className="flex items-center justify-center px-4 py-2 bg-white">
         {/* 검색창 */}
         <div className="flex items-center border border-gray-300 rounded-full px-4 py-2 w-1/2">
           <div className="text-green-600 text-2xl font-bold px-2">N</div>

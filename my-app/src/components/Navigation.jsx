@@ -17,7 +17,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-white">
       <ul className="flex justify-center space-x-6 py-2 text-gray-700 text-sm">
         {menuItems.map((item, index) => (
           <li key={index} className="hover:text-green-600 cursor-pointer">
