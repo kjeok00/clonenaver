@@ -20,20 +20,22 @@ function App() {
 
       {/* Main & Side Layout */}
       <div className="flex w-full h-full">
-        {/* Main */}
-        <div className="w-2/3 h-full flex flex-col mx-4 my-4 space-y-4">
-          <FirstMain />
-          <SecondMain />
-        </div>
+        <main className="flex m-4 gap-4">
+          {/* Main */}
+          <div className="w-2/3 h-full flex flex-col space-y-4">
+            <FirstMain />
+            <SecondMain />
+          </div>
+          {/* Side */}
+          <div className="w-1/3 h-full flex flex-col space-y-4">
+            <Login />
+            <FirstSide />
+            <SecondSide />
+            <ThirdSide />
+            <ForthSide />
+          </div>
+        </main>
 
-        {/* Side */}
-        <div className="w-1/3 h-full flex flex-col">
-          <Login />
-          <FirstSide />
-          <SecondSide />
-          <ThirdSide />
-          <ForthSide />
-        </div>
       </div>
 
       <Footer />

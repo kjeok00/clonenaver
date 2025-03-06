@@ -7,14 +7,14 @@ const Header = () => {
       <div className="flex items-center justify-between px-4 py-2 text-gray-500 text-sm">
         {/* 좌측 아이콘 */}
         <div className="flex items-center space-x-4">
-          <span className="cursor-pointer">🗒️</span>
-          <span className="cursor-pointer">💰</span>
+          <span className="cursor-pointer">⋯</span>
+          <span className="cursor-pointer">pay</span>
         </div>
 
         <div className="flex items-center space-x-4">
           <span className="cursor-pointer">💬</span>
-          <span className="cursor-pointer">🔔</span>
-          <span className="cursor-pointer">🛍️</span>
+          <span className="cursor-pointer">notice</span>
+          <span className="cursor-pointer">shop</span>
         </div>
       </div>
 

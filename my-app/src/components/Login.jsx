@@ -2,10 +2,10 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="flex items-center justify-center bg-white">
-      <div className="bg-white p-6 rounded-lg shadow-md w-96 text-center">
+    <div className="flex items-center justify-center bg-white border-2 rounded-lg">
+      <div className="bg-white p-6 rounded-lg w-96 text-center">
         {/* 설명 텍스트 */}
-        <p className="text-gray-600 text-sm mb-4">
+        <p className="text-gray-600 text-sm mb-4 font-bold">
           네이버를 더 안전하고 편리하게 이용하세요
         </p>
 
@@ -16,7 +16,7 @@ const Login = () => {
         </button>
 
         {/* 하단 링크 */}
-        <div className="flex justify-center space-x-4 text-gray-500 text-xs mt-4">
+        <div className="flex justify-center space-x-4 text-gray-500 text-xs mt-4 font-medium">
           <a href="#" className="hover:text-gray-800">아이디 찾기</a>
           <span>|</span>
           <a href="#" className="hover:text-gray-800">비밀번호 찾기</a>
